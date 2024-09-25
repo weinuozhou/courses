@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Course Schedule</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="week-title">第1周的课程表</h1>
+        <!-- 添加周次选择的下拉列表 -->
+        <label for="week-select">选择周次：</label>
+        <select id="week-select">
+            <!-- 可以动态生成，也可以手动添加选项 -->
+            <option value="1">第1周</option>
+            <option value="2">第2周</option>
+            <option value="3">第3周</option>
+            <option value="4">第4周</option>
+            <option value="5">第5周</option>
+            <option value="6">第6周</option>
+            <option value="7">第7周</option>
+            <option value="8">第8周</option>
+            <option value="9">第9周</option>
+            <option value="10">第10周</option>
+            <option value="11">第11周</option>
+            <option value="12">第12周</option>
+            <option value="13">第13周</option>
+            <option value="14">第14周</option>
+            <!-- 继续添加更多周次 -->
+        </select>
+        <table id="schedule-table">
+            <!-- 表格内容将由 JavaScript 动态生成 -->
+        </table>
+        <div class="buttons">
+            <button id="prev-week">Previous</button>
+            <button id="next-week">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
